@@ -1,0 +1,48 @@
+table, th, td {
+    border: 2px solid rgba(146, 232, 165, 0.781);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(71, 213, 0, 0.567);
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+th {
+    background-color: #04AA6D;
+    color: black;
+    font-size: 20px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: green;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    font-size: 20px;
+}
+.form-control{
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 14px 20px;
+}
+.btn-success{
+    background-color: #04AA6D;
+    color: aliceblue;
+    border-radius: 14px;
+}
